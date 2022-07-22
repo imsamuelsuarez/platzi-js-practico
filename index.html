@@ -10,16 +10,29 @@
 
 <body>
     <div class="container">
-       <form action="" for="" class="form-container">
-           <label for="" id="labelCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
-           <input type="number" class="form-container--text-input" id="valorPerimetro" placeholder="Lado del cuadrado">
-           <button type="button" id="botonPerimetro">Calcular Perimetro</button>
+       <div class="carta-cuadrado">
+          
+            <div class="carta-cuadrado--titulo-contenedor">
+                <h2>Cuadrado <span></span></h2>
+            </div>
 
 
-        <input type="number" class="form-container--button-input" id="valorArea"
-        placeholder="Area">
-        <button type="button" id="botonArea">Calcular Area al Cuadrado</button>
-       </form>
+            <div class="cuadrado-calculos">
+                <div class="seccion-perimetro">
+                    <input type="number" class="seccion-perimetro--valor" id="valorPerimetro" placeholder="Lado del cuadrado">
+                    <button type="button" id="botonPerimetro" class="seccion-perimetro--boton">Calcular Perimetro</button>
+                    <p class="seccion-perimetro--resultado">Resultado</p>
+                </div>
+              
+    
+    
+               <div class="seccion-area">
+                <input type="number" class="form-container--button-input" id="valorArea"
+                placeholder="Area">
+                <button type="button" id="botonArea">Calcular Area al Cuadrado</button>
+               </div>
+            </div>
+       </div>
 
        <form action="" for="" class="form-container">
         <label for="" id="">Cuanto mide la base y el area de tu triangulo:</label>

@@ -15,15 +15,45 @@
     gap: 40px;
 }
 
-.form-container
+.form-container, .carta-cuadrado
 {
     width: 390px;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
     background-color: white;
     border-radius: 20px; 
 }
+
+
+
+ .carta-cuadrado--titulo-contenedor
+{
+    position: relative;
+    font-size: 1.2rem;
+    align-self: flex-start;
+    justify-self: stretch;
+    padding-left: 20px;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.carta-cuadrado h2 span
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 4px;
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    
+
+}
+
+.cuadrado-calculos
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 270px;
+}
+
