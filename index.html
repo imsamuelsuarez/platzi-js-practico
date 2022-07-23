@@ -19,22 +19,30 @@
 
             <div class="cuadrado-calculos">
                 <div class="seccion-perimetro">
-                    <input type="number" class="seccion-perimetro--valor" id="valorPerimetro" placeholder="Lado del cuadrado">
+                    <input type="number" class="seccion-perimetro--valor seccion--valor" id="valorPerimetro" placeholder="Lado del cuadrado en CENTIMETROS">
                     <button type="button" id="botonPerimetro" class="seccion-perimetro--boton">Calcular Perimetro</button>
-                    <p class="seccion-perimetro--resultado">Resultado</p>
+
+                    <button type="button" class="seccion-perimetro--reinicio">Reiniciar valor</button>
+                    <p class="seccion-perimetro--resultado seccion-resultado">Resultado</p>
                 </div>
               
     
     
                <div class="seccion-area">
-                <input type="number" class="form-container--button-input" id="valorArea"
-                placeholder="Area">
-                <button type="button" id="botonArea">Calcular Area al Cuadrado</button>
+
+                <input type="number" class="seccion-area--valor seccion--valor" id="valorArea"
+                placeholder="Area del cuadrado en centimetros">
+
+                <button type="button" id="botonArea" class="seccion-area--boton seccion--boton">Calcular Area al Cuadrado</button>
+
+                <button type="button" class="seccion-area--reinicio seccion--boton">Reiniciar valor</button>
+                
+                <p class="seccion-area--resultado seccion-resultado">Resultado</p>
                </div>
             </div>
        </div>
 
-       <form action="" for="" class="form-container">
+       <!-- <form action="" for="" class="form-container">
         <label for="" id="">Cuanto mide la base y el area de tu triangulo:</label>
         <input type="number" class="" id="inputTriangulo" placeholder="Base y area">
         <button type="button" id="buttonTriangulo">Calcular Perimetro</button>
@@ -56,7 +64,7 @@
 
      <input type="number" placeholder="Radio">
      <button type="button">Calcular area</button>
-    </form>
+    </form> -->
 
     </div>
 
