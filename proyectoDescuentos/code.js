@@ -1,8 +1,4 @@
 var input = document.getElementById("discount");
-// const discount = input.innerHTML = random(10, 50);
-// const showDiscount = input.innerHTML = discount;
-
-const originalPrice = 100;
 
 let calculateDiscount = function(price, discount)
 {
@@ -26,6 +22,44 @@ function onClickButtonPriceDiscount()
 
     calculateDiscount(price, discount);
 
-    // result.innetText = "El precio con descuento son $" + calculateDiscount(price, discount); 
+   
 }
+
+
+
+
+
+
+const coupons = [
+    {
+     code: 123456,
+     discount: 15,
+     id: 1
+},
+
+{
+    code: 987654,
+    discount: 20,
+    id: 2
+}]
+
+function obtainCouponValue()
+{
+   const value = prompt("Cual es tu cupon")
+   couponValue = parseInt(value);
+   couponValid = true;
+   console.log(couponValue);
+   
+
+   
+}
+
+let couponValue = "123456";
+let couponValid = false;
+
+
+    let findCoupon = coupons.find(function(cupon)
+    {   
+        return cupon.code === couponValue;
+    });
 

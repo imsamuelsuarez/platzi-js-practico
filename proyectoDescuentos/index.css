@@ -39,6 +39,17 @@
     cursor: pointer;
 }
 
+.couponButton
+{
+    cursor: pointer;
+    border-bottom: 1.5px solid;
+}
+
+.couponButton:hover
+{
+    color: gray;
+}
+
 button
 {
     width: 280px;
