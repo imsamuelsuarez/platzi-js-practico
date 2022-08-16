@@ -18,6 +18,8 @@
 
 ## Taller #3: Promedio, moda y mediana.
 
+## Promedio o media aritmetica
+
 - El promedio o media aritmetica. Consiste en sumar cada numero y dividirlo por la cantidad de 
 numeros que hay. (20 + 30 + 40) = 90. 90 / 3 = 30;
 
@@ -28,7 +30,9 @@ si el salario de una de estas personas esta muy por encima del resto, esto desco
 - Ejemplo de 5 personas... 4 ganan 500$ al mes y 1 gana 1 millon de dolares al mes. El resultado final no reflejara la realidad 
 de las primeras cuatro personas. 
 
-- La mediana: Es encontrar el elemento que este en la mitad de la lista. 
+## La mediana:
+
+- Es encontrar el elemento que este en la mitad de la lista. 
 
 - Si vamos a calcular la mediana de los salarios de unas personas, y si hay tres personas: entonces elegimos la persona de la mitad.
 
@@ -37,3 +41,8 @@ de las primeras cuatro personas.
 - En caso de que la lista sea par, se agarran los dos elementos de la mitad. Se suman y se dividen entre dos.
 
 - Sueldo1, sueldo2, sueldo3, sueldo4.  Mediana = (sueldo2 + sueldo3) / 2
+
+## La moda 
+
+- La moda es el valor dentro del conjunto de datos que más se repite, el que tiene mayor frecuencia. El rango 
+- establece la proximidad de los datos del conjunto. 
