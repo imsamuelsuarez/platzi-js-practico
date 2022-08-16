@@ -27,3 +27,8 @@ function calcularMediaAritmetica(lista)
 // Hay una alternativa para el ciclo for.
 // Tenemos metodos especiales para iterar
 // cada elemento. 
+
+// Calculando la mediana en Javascript.
+// Encapsular eso en una funcion.
+// Usar un metodo especial de arrays.
+
